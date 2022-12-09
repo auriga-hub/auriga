@@ -6,7 +6,7 @@
 
 import frappe
 
-from bezzie.api.V_0_1.product_query import get_product_filter_data
+from auriga.api.V_0_1.product_query import get_product_filter_data
 # from erpnext.e_commerce.api import get_product_filter_data
 from erpnext.e_commerce.shopping_cart.product_info import get_product_info_for_website
 from erpnext.e_commerce.doctype.item_review.item_review import add_item_review, get_item_reviews, get_customer

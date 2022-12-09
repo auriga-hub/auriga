@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include auriga *.css
+recursive-include auriga *.csv
+recursive-include auriga *.html
+recursive-include auriga *.ico
+recursive-include auriga *.js
+recursive-include auriga *.json
+recursive-include auriga *.md
+recursive-include auriga *.png
+recursive-include auriga *.py
+recursive-include auriga *.svg
+recursive-include auriga *.txt
+recursive-exclude auriga *.pyc

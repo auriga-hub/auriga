@@ -7,7 +7,7 @@ import frappe
 from frappe.utils import cint
 
 from erpnext.e_commerce.product_data_engine.filters import ProductFiltersBuilder
-from bezzie.api.V_0_1.query import ProductQuery
+from auriga.api.V_0_1.query import ProductQuery
 # from erpnext.e_commerce.product_data_engine.query import ProductQuery
 from erpnext.setup.doctype.item_group.item_group import get_child_groups_for_website
 
